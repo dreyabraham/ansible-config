@@ -33,5 +33,13 @@
         }
       }
     }
+   
+    stage('Clean Up') {
+      steps {
+        script {
+          sh 'echo "Cleaning Up"'
+        }
+      }
+    }  
     }
 }
