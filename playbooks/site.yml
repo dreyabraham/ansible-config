@@ -1,7 +1,7 @@
 ---
  - hosts: nginx
  - name: nginx
-   ansible.builtin.import_playbooks: ../static-assignments/nginx.yml
+     ansible.builtin.import_playbooks: ../static-assignments/nginx.yml
 
 # - hosts: artifactory
 # - name: artifactory assignment
