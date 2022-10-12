@@ -6,5 +6,3 @@
 
 [todo]
 172.31.86.80 ansible_ssh_user='ec2-user'
-
-
